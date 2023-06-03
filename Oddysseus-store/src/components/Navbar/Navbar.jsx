@@ -32,12 +32,12 @@ function Navbar() {
       <div className="container">
         <div className="logo">
           <Link className="link" to="/">
-            <span className="text">liverr</span>
+            <span className="text">Odysseus</span>
           </Link>
           <span className="dot">.</span>
         </div>
         <div className="links">
-          <span>Liverr Business</span>
+          <span>Odysseus Business</span>
           <span>Explore</span>
           <span>English</span>
           {!currentUser?.isSeller && <span>Become a Seller</span>}
